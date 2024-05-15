@@ -771,7 +771,7 @@ main {
  * education and experience 
  */
 
-.timeline { margin-bottom: 30px; }
+.timeline { margin-bottom: 30px; border: 2px solid rgb(63, 60, 60);border-radius:  15px; box-shadow: var(--shadow-2); }
 
 .timeline .title-wrapper {
   display: flex;
@@ -785,7 +785,11 @@ main {
   margin-left: 45px;
 }
 
-.timeline-item { position: relative; }
+.timeline-item { position: relative;
+/* border: 2px solid rgb(63, 60, 60); 
+border-radius:  15px; */
+
+}
 
 .timeline-item:not(:last-child) { margin-bottom: 20px; }
 
